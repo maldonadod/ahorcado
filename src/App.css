@@ -1,5 +1,16 @@
 .App {
-  text-align: center;
+  padding: 20px;
+}
+
+.bontoncillo {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #CCC;
+  outline: none;
+}
+.bontoncillo:hover {
+  transform: translateY(-3px);
 }
 
 .App-logo {
@@ -20,7 +31,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color:red;
 }
 
 @keyframes App-logo-spin {
